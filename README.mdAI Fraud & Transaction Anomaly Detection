@@ -1,0 +1,43 @@
+A modular machine-learning pipeline for identifying unusual financial transactions using statistical feature engineering and unsupervised anomaly detection.
+Overview
+Financial transaction systems can generate large volumes of data, making it difficult to manually identify unusual patterns.
+This project demonstrates an end-to-end anomaly detection workflow that:
+Generates reproducible synthetic transaction data.
+Validates and cleans transaction records.
+Creates statistical and behavioral features.
+Uses Isolation Forest for unsupervised anomaly detection.
+Calculates anomaly scores.
+Summarizes detected anomalies.
+Produces visualizations.
+Provides automated tests for core components.
+The project is designed as a portfolio-quality demonstration of data analytics, statistics, machine learning, and software engineering practices.
+Problem Statement
+Traditional rule-based approaches can be difficult to maintain when transaction behavior changes.
+The objective of this project is to develop a reproducible system that identifies transactions that differ substantially from the general transaction population.
+The system does not determine whether a transaction is definitively fraudulent. Instead, it identifies transactions that may require further investigation.
+Methodology
+The pipeline follows this process:
+Synthetic Transaction Data
+          ↓
+Data Validation
+          ↓
+Data Cleaning
+          ↓
+Feature Engineering
+          ↓
+Isolation Forest
+          ↓
+Anomaly Scores
+          ↓
+Anomaly Classification
+          ↓
+Evaluation & Visualization
+Features
+The model uses several transaction characteristics:
+Transaction amount
+Transaction frequency
+Transaction hour
+Location change indicator
+Device change indicator
+Night-time transaction indicator
+Combined behavioral risk signal
